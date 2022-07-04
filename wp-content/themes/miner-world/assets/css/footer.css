@@ -141,9 +141,14 @@ footer{
 	height: 20px;
 	background-image: url('../img/svg/arrow.svg');
 	background-repeat: no-repeat;
+	transition: all .3s;
 }
 .footer__dropdown--active{
 	background: #F2F2F2;
+}
+.footer__dropdown--active:before{
+	top:20px;
+	transform: rotate(180deg);
 }
 .footer__copyright-mob{
 	display: flex;
@@ -162,11 +167,41 @@ footer{
 .footer__copyright-mob ul li{
 	padding:10px;
 }
+.footer__copyright-mob ul li img{
+	width: 25px;
+	height:25px;
+}
 @media only screen and (max-width: 768px) {
 	.footer{
 		display: none;
 	}
 	.footer__mob{
 		display: block;
+	}
+	.single__rate{
+		flex-direction: column;
+	}
+	.single__links a{
+		margin-left: 0px;
+		margin-right: 40px;
+	}
+	.single__comparisons{
+		display: none;
+	}
+	.single__rate span{
+		color: #4A4A4A;
+		font-weight: 600;
+		padding-bottom:5px;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.footer__dropdown{
+		font-size: 14px;
+	}
+	.single__reviewsitem{
+		flex-direction: column;
+	}
+	.single__titleitem h1{
+		font-size: 24px;
 	}
 }

@@ -1,0 +1,121 @@
+.product{
+	display: flex;
+	margin:0 -10px;
+}
+.product-item {
+	width: 25%;
+	margin:0 10px;
+}
+.product-item__box{
+	background: #FFFFFF;
+	box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.01);
+	border-radius: 10px;
+	padding:25px 20px;
+	transition: all .3s;
+}
+.product-item__box:hover{
+	box-shadow: 1px 1px 10px 1px #58a9f3;
+    transform: scale(1.03);
+}
+.product-item__top {
+	display: flex;
+	justify-content: space-between;
+}
+.product-item__tagrecommended {
+	background: #25AB03;
+	border-radius: 0px 10px 10px 0px;
+	font-weight: 400;
+	font-size: 16px;
+	color: #FFFFFF;
+	padding: 8px;
+}
+.product-item__comparisons svg{
+	cursor: pointer;
+}
+.product-item__comparisons svg:hover{
+	fill: #58A9F3;
+}
+.product-item__img {
+	margin:20px 0;
+}
+.product-item__description h2{
+	font-weight: 500;
+	font-size: 20px;
+	color: #000000;
+}
+.product-item__description p{
+	font-weight: 300;
+	font-size: 12px;
+	color: #4A4A4A;
+	padding:15px 0 20px 0;
+}
+.product-item__description strong{
+	font-weight: 600;
+	font-size: 12px;
+	color: #000000;
+}
+.product-item__price{
+	margin:20px 0 25px 0;
+}
+.product-item__price a{
+	font-weight: 600;
+	font-size: 20px;
+	color: #000000;
+}
+.product-item__btn button{
+	font-weight: 500;
+	font-size: 16px;
+	color: #FFFFFF;
+	background: #58A9F3;
+	border-radius: 10px;
+	height: 44px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all .3s;
+}
+.product-item__btn button img {
+    padding-left: 10px;
+    height: 23px;
+}
+@media only screen and (max-width: 992px) {
+  	.product-item {
+		width: 33.333333%;
+	}
+	.product .product-item:last-child {
+		display: none;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.product-item {
+		width: 50%;
+	}
+	.product .product-item:first-child {
+		display: none;
+	}
+	.product .product-item:last-child {
+		display: none;
+	}
+  
+}
+@media only screen and (max-width: 576px) {
+	.product{
+		flex-wrap: wrap;
+	}
+	.product-item {
+		width: 100%;
+	}
+	.product .product-item:first-child {
+		display: block;
+	}
+	.product .product-item:last-child {
+		display: block;
+	}
+	.product-item__top{
+		display: none;
+	}
+	.product-item__description p, .product-item__description strong{
+		display: none;
+	}
+}

@@ -64,9 +64,9 @@ global $product;
 				<a href="">Доставка по по всей России..</a>
 			</div>
 			<div class="single__btn">
-				<?php //oocommerce_template_single_add_to_cart();?>
 				<button type="submit" data-quantity="1" data-product_id="<?php echo $product->id; ?>" class="btn alt ajax_add_to_cart add_to_cart_button product_type_simple">
 	      		Добавить в корзину
+	      		<img src="<?php echo bloginfo('template_url'); ?>/assets/img/svg/cart.svg" alt="">
 	      		</button>
 			</div>
 			<div class="single__call">
@@ -76,7 +76,6 @@ global $product;
 		</div>
 	</div>
 </div>
-
 
 
 <div class="container">
@@ -97,7 +96,9 @@ global $product;
 <div class="container">
 	<div class="single__similar single__products">
 		<h2>Похожие товары</h2>
-
+		<div class="product">
+			<?php get_template_part( 'template-parts/praduct-item'); ?>
+		</div>
 	</div>
 </div>
 
