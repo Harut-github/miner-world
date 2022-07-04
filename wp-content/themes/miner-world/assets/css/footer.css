@@ -1,0 +1,172 @@
+footer{
+	padding:65px 0 80px 0;
+}
+.footer {
+	display: flex;
+}
+.footer__left {
+	width: 33.333333%;
+}
+.footer__rekvizits {
+	margin:65px 0 130px 0;
+}
+.footer__rekvizits-item{
+	margin-bottom:30px;
+}
+.footer__rekvizits-item strong{
+	font-weight: 600;
+	font-size: 16px;
+	color: #000000;
+	padding-bottom:15px;
+	display: block;
+}
+.footer__rekvizits-item p{
+	font-weight: 400;
+	font-size: 11px;
+	color: #4A4A4A;
+	padding-bottom:5px;
+}
+.footer__copyright {
+	font-weight: 500;
+	font-size: 20px;
+	color: #000000;
+}
+.footer__center {
+	width: 33.333333%;
+	padding: 0 70px;
+}
+.footer__menu {
+	margin-bottom:85px;
+	margin-top:30px;
+}
+.footer__menu ul li strong{
+	font-weight: 500;
+	font-size: 32px;
+	color: #000000;
+	margin-bottom:15px;
+	display: block;
+}
+.footer__menu ul li a{
+	font-weight: 400;
+	font-size: 14px;
+	color: #4A4A4A;
+	text-decoration-line: underline;
+}
+.footer__menu ul li a:hover{
+	text-decoration-line: none;
+	color:#58A9F3;
+}
+.footer__right {
+	width: 33.333333%;
+	margin-top:30px;
+}
+.footer__contacts{
+	text-align: right;
+}
+.footer__contacts h2{
+	font-weight: 500;
+	font-size: 32px;
+	color: #000000;
+}
+.footer__contacts strong{
+	font-weight: 600;
+	font-size: 16px;
+	color: #000000;
+	display: block;
+	margin-top:15px;
+	margin-bottom:10px;
+}
+.footer__contacts p{
+	font-weight: 400;
+	font-size: 11px;
+	color: #4A4A4A;
+	line-height: 18px;
+}
+.footer__contacts a{
+	font-weight: 400;
+	font-size: 14px;
+	color: #4A4A4A;
+	margin-bottom:10px;
+}
+.footer__contacts ul{
+	display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top:20px;
+}
+.footer__contacts ul li{
+	padding:0px 5px;
+}
+.footer__contacts ul li img{
+	width: 20px;
+	height:20px;
+	transition: all .3s;
+	position: relative;
+	margin-top:0;
+}
+.footer__contacts ul li img:hover{
+	margin-top:-5px;
+}
+.footer__dropdown-1, .footer__dropdown-2{
+	display: none;
+	padding: 30px 10px;
+}
+.footer__dropdown-2 .footer__contacts{
+	text-align: left;
+}
+.footer__dropdown-1 .footer__rekvizits{
+	margin: 0;
+}
+.footer__mob{
+	display: none;
+}
+.footer__mob .footer__logo{
+	margin-bottom:40px;
+}
+.footer__dropdown{
+	font-weight: 500;
+	font-size: 24px;
+	color: #000000;
+	background: #FDFEFF;
+	text-align: left;
+	padding:20px 10px;
+	position: relative;
+}
+.footer__dropdown:before{
+	content:'';
+	position: absolute;
+	top: 30px;
+    right: 20px;
+	width: 20px;
+	height: 20px;
+	background-image: url('../img/svg/arrow.svg');
+	background-repeat: no-repeat;
+}
+.footer__dropdown--active{
+	background: #F2F2F2;
+}
+.footer__copyright-mob{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top:30px;
+}
+.footer__copyright{
+	font-weight: 600;
+	font-size: 16px;
+	color: #000000;
+}
+.footer__copyright-mob ul{
+	display: flex;
+}
+.footer__copyright-mob ul li{
+	padding:10px;
+}
+@media only screen and (max-width: 768px) {
+	.footer{
+		display: none;
+	}
+	.footer__mob{
+		display: block;
+	}
+}
