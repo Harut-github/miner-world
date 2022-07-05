@@ -1,3 +1,12 @@
+.products__loop{
+	margin:40px 0 80px 0;
+}
+.products__loop>h2{
+	font-weight: 500;
+	font-size: 24px;
+	color: #000000;
+	margin-bottom:50px;
+}
 .product{
 	display: flex;
 	margin:0 -10px;
@@ -97,7 +106,6 @@
 	.product .product-item:last-child {
 		display: none;
 	}
-  
 }
 @media only screen and (max-width: 576px) {
 	.product{

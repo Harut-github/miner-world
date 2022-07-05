@@ -29,6 +29,11 @@
 .single__links a{
 	color: #4A4A4A;
 	margin-left: 40px;
+	transition: all .3s;
+}
+.single__links a:hover{
+	color: #58A9F3;	
+	text-decoration-line: underline;
 }
 .single__comparisons{
 	margin-top: 10px;
@@ -123,7 +128,25 @@
 	margin-top:30px;
 	margin-bottom:20px;
 }
+.single__btn button.loading:before{
+	content:'';
+	position: absolute;
+	top: 10px;
+    right: 75px;
+	background-image: url('../img/loading.gif');
+	background-size: cover;
+    background-repeat: no-repeat;
+    width: 23px;
+	height:23px;
+}
+.single__btn button.loading img{
+	opacity: 0;
+}
+.added_to_cart{
+	display: none;
+}
 .single__btn button{
+	position: relative;
 	font-weight: 500;
 	font-size: 16px;
 	color: #FFFFFF;

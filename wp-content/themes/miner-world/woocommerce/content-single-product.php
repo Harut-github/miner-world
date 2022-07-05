@@ -79,9 +79,12 @@ global $product;
 
 
 <div class="container">
-	<div class="single__related single__products">
+	<div class="single__related products__loop">
 		<h2>С этим товаром покупают</h2>
-		<?php woocommerce_output_related_products();?>
+		<?php //woocommerce_output_related_products();?>
+		<div class="product">
+			<?php get_template_part( 'template-parts/praduct-item'); ?>
+		</div>
 	</div>
 </div>
 
@@ -94,7 +97,7 @@ global $product;
 </div>
 
 <div class="container">
-	<div class="single__similar single__products">
+	<div class="single__similar products__loop">
 		<h2>Похожие товары</h2>
 		<div class="product">
 			<?php get_template_part( 'template-parts/praduct-item'); ?>

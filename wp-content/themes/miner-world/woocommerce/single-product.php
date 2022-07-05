@@ -36,14 +36,14 @@ get_header( 'shop' ); ?>
 	<?php endwhile;  ?>
 </div>
 
-
 <div class="container">
-	<div class="single__interestedbefor single__products">
+	<div class="single__interestedbefor products__loop">
 		<h2>Вас заинтересовало ранее</h2>
-		
+		<div class="product">
+			<?php get_template_part( 'template-parts/praduct-item'); ?>
+		</div>
 	</div>
 </div>	
-
 
 <?php get_template_part( 'template-parts/form-blue'); ?>
 
