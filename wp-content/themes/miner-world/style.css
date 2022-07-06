@@ -66,10 +66,15 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "assets/css/header.css";
 @import "assets/css/home.css";
 @import "assets/css/product-single.css";
-@import "assets/css/product-item.css";
-@import "assets/css/form-blue.css";
 @import "assets/css/cart.css";
 @import "assets/css/departments.css";
+@import "assets/css/pay-delivery.css";
+@import "assets/css/company.css";
+@import "assets/css/cooperate.css";
 @import "assets/css/footer.css";
+
+@import "assets/css/product-item.css";
+@import "assets/css/form-blue.css";
+
 
 

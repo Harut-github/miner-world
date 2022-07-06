@@ -11,6 +11,8 @@
 
 ?>
 
+<?php get_template_part( 'template-parts/form-blue'); ?>
+
 <footer>
 	<div class="container">
 		<div class="footer">

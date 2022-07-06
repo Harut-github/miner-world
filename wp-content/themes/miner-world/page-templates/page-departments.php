@@ -31,7 +31,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="departments__map" id="map">
+					<div class="departments__map">
 						<?php the_sub_field('departments_repeater_map'); ?>
 					</div>
 			    </div>
