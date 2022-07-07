@@ -64,7 +64,7 @@ global $product;
 				<a href="">Доставка по по всей России..</a>
 			</div>
 			<div class="single__btn">
-				<button type="submit" data-quantity="1" data-product_id="<?php echo $product->id; ?>" class="btn alt ajax_add_to_cart add_to_cart_button product_type_simple">
+				<button type="submit" data-quantity="1" data-product_id="<?php echo $product->id; ?>" class="button btn alt ajax_add_to_cart add_to_cart_button product_type_simple">
 	      		Добавить в корзину
 	      		<img src="<?php echo bloginfo('template_url'); ?>/assets/img/svg/cart.svg" alt="">
 	      		</button>

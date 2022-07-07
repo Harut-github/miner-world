@@ -202,32 +202,32 @@ define('ALLOW_UNFILTERED_UPLOADS', true);
 
 
 /********************Texonomy woocommerce City for location*****************************/
-function miner_taxonomy_location()  {
-$labels = array(
-    'name'                       => 'Город',
-    'singular_name'              => 'Город',
-    'menu_name'                  => 'Город',
-    'all_items'                  => 'All Город',
-    'parent_item'                => 'Parent Город',
-    'parent_item_colon'          => 'Parent Город:',
-    'new_item_name'              => 'New Brand Name',
-    'add_new_item'               => 'Add New Город',
-    'edit_item'                  => 'Edit Город',
-    'update_item'                => 'Update Город',
-    'separate_items_with_commas' => 'Separate Город with commas',
-    'search_items'               => 'Search Город',
-    'add_or_remove_items'        => 'Add or remove Город',
-    'choose_from_most_used'      => 'Choose from the most used Город',
-);
-$args = array(
-    'labels'                     => $labels,
-    'hierarchical'               => true,
-    'public'                     => true,
-    'show_ui'                    => true,
-    'show_admin_column'          => true,
-    'show_in_nav_menus'          => true,
-    'show_tagcloud'              => true,
-);
-register_taxonomy( 'location', 'product', $args );
-}
-add_action( 'init', 'miner_taxonomy_location', 0 );
+// function miner_taxonomy_location()  {
+// $labels = array(
+//     'name'                       => 'Город',
+//     'singular_name'              => 'Город',
+//     'menu_name'                  => 'Город',
+//     'all_items'                  => 'All Город',
+//     'parent_item'                => 'Parent Город',
+//     'parent_item_colon'          => 'Parent Город:',
+//     'new_item_name'              => 'New Brand Name',
+//     'add_new_item'               => 'Add New Город',
+//     'edit_item'                  => 'Edit Город',
+//     'update_item'                => 'Update Город',
+//     'separate_items_with_commas' => 'Separate Город with commas',
+//     'search_items'               => 'Search Город',
+//     'add_or_remove_items'        => 'Add or remove Город',
+//     'choose_from_most_used'      => 'Choose from the most used Город',
+// );
+// $args = array(
+//     'labels'                     => $labels,
+//     'hierarchical'               => true,
+//     'public'                     => true,
+//     'show_ui'                    => true,
+//     'show_admin_column'          => true,
+//     'show_in_nav_menus'          => true,
+//     'show_tagcloud'              => true,
+// );
+// register_taxonomy( 'location', 'product', $args );
+// }
+// add_action( 'init', 'miner_taxonomy_location', 0 );

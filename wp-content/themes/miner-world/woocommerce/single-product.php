@@ -45,7 +45,6 @@ get_header( 'shop' ); ?>
 	</div>
 </div>	
 
-<?php get_template_part( 'template-parts/form-blue'); ?>
 
 <?php
 get_footer( 'shop' );

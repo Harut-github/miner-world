@@ -1,0 +1,14 @@
+.home__banner img{
+	width: 100%;
+}
+.home__top{
+	padding:60px 0;
+}
+.home__top h2{
+	font-weight: 600;
+	font-size: 40px;
+	color: #000000;
+}
+.home__compan-about{
+	margin-bottom:60px;
+}

@@ -22,7 +22,7 @@
 
 <body <?php body_class(); ?>>
 
-<div class="tradingview-widget-container">
+ <div class="tradingview-widget-container">
     <div class="tradingview-widget-container__widget"></div>
     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
        {
@@ -51,9 +51,9 @@
        "locale": "ru"
        }
     </script>
-</div>
+</div>  
 <div class="container">
-	 	<?php
+	<?php
 		wp_nav_menu(
 			array(
 			'theme_location' => 'menu-1',
@@ -61,5 +61,5 @@
 			'container'=> false,
 			)
 			);
-		?>
+		?> 
 </div>

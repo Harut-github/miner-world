@@ -54,13 +54,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Generic
 --------------------------------------------------------------*/
 
-/* Normalize
---------------------------------------------- */
 
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-
-/* Document
-	 ========================================================================== */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import "assets/css/normalize.css";
 @import "assets/css/header.css";
@@ -69,8 +63,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "assets/css/cart.css";
 @import "assets/css/departments.css";
 @import "assets/css/pay-delivery.css";
-@import "assets/css/company.css";
 @import "assets/css/cooperate.css";
+@import "assets/css/company.css";
 @import "assets/css/footer.css";
 
 @import "assets/css/product-item.css";

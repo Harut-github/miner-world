@@ -1,0 +1,167 @@
+.company__about{
+	background: #FDFEFF;
+	padding:60px 0;
+}
+.company__about-title{
+	font-weight: 600;
+	font-size: 40px;
+	color: #000000;
+}
+.company__about-img{
+	padding:60px 0;
+	position: relative;
+}
+.company__about-mini{
+	position: absolute;
+	right:130px;
+	bottom:120px;
+	background: #FDFEFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	color: #4B8BC6;
+	font-weight: 400;
+	font-size: 16px;
+	padding:25px;
+}
+.company__about-text{
+	font-weight: 500;
+	font-size: 20px;
+	color: #000000;
+}
+.company__prezentation{
+	padding: 80px 0 40px 0;
+}
+.company__prezentation-title{
+	font-weight: 600;
+	font-size: 40px;
+	color: #000000;
+}
+.company__prezentation-img{
+	padding:30px 0 80px 0;
+}
+.company__prezentation-text{
+	font-weight: 500;
+	font-size: 20px;
+	color: #000000;
+}
+.company__prezentation-text p{
+	padding-bottom:15px;
+}
+.company__gallery{
+	display: flex;
+	flex-wrap: wrap;
+}
+.company__gallery-img{
+	width: 33.333333%;
+	display:block;
+}
+.company__gallery-img img{
+	width: 100%;
+	height: 100%;
+}
+.company__gallery-text{
+	font-weight: 500;
+	font-size: 20px;
+	color: #000000;
+	margin-top:40px;
+}
+.company__gallery-text p{
+	padding-bottom:15px;
+}
+.company__sevices{
+	background: #FDFEFF;
+	padding:60px 0;
+}
+.company__sevices-title{
+	font-weight: 600;
+	font-size: 40px;
+	color: #000000;
+}
+.company__sevices-img{
+	padding:60px 0;
+}
+.company__sevices-img img{
+	width: 100%;
+}
+.company__sevices-text{
+	font-weight: 500;
+	font-size: 20px;
+	color: #000000;
+}
+.company__reviews{
+	padding:80px 0;
+}
+.company__reviews-title{
+	font-weight: 600;
+	font-size: 40px;
+	color: #000000;
+	margin-bottom:60px;
+}
+.company__reviews-box{
+	display: flex;
+	flex-wrap: wrap;
+}
+.company__reviews-item{
+	width: 50%;
+	padding-bottom: 60px;
+}
+.company__reviews-info{
+	display: flex;
+}
+.company__reviews-img{
+	width: 64px;
+	margin-right: 15px;
+}
+.company__reviews-name strong{
+	font-weight: 500;
+	font-size: 20px;
+	color: #000000;
+	display: block;
+}
+.company__reviews-name span{
+	font-weight: 400;
+	font-size: 11px;
+	color: #000000;
+	display: block;
+}
+.company__reviews-text{
+	font-weight: 400;
+	font-size: 16px;
+	color: #000000;
+	padding-left: 80px;
+}
+@media only screen and (max-width: 576px) {
+	.company__about-img{
+		padding: 30px 0;
+	}
+	.company__reviews-box{
+		flex-direction: column;
+	}
+	.company__reviews-item{
+		width: 100%;
+	}
+	.company__reviews{
+		padding: 40px 0;
+	}
+	.company__reviews-title, .company__about-title, 
+	.company__sevices-title, .company__prezentation-title{
+		font-size: 24px;
+	}
+	.company__gallery-text, .company__prezentation-text{
+		font-size: 14px;
+	}
+	.company__prezentation-img{
+		padding: 30px 0 30px 0;
+	}
+	.company__prezentation{
+		padding: 40px 0 40px 0;
+	}
+	.company__about-mini{
+		position: relative;
+		top:0px;
+		right: 0px;
+	}
+	.company__gallery-img{
+		width: 100%;
+	}
+}
