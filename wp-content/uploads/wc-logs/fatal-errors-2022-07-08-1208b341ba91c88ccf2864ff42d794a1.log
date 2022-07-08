@@ -1,0 +1,10 @@
+2022-07-08T10:41:13+00:00 CRITICAL syntax error, unexpected '$args' (T_VARIABLE) в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\functions.php на строке 242
+
+2022-07-08T10:41:14+00:00 CRITICAL syntax error, unexpected '$args' (T_VARIABLE) в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\functions.php на строке 242
+
+2022-07-08T10:54:29+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\xampp\htdocs\mywp\miner-world\wp-includes\widgets\class-wp-widget-custom-html.php на строке 17
+
+2022-07-08T11:10:03+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\page-templates\page-news.php на строке 64
+
+2022-07-08T11:15:48+00:00 CRITICAL syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\archive.php на строке 72
+

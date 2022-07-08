@@ -9,43 +9,76 @@
 
 get_header();
 ?>
+<section>
+	<div class="container">
+		<div class="news__general-title">
+			<h2><?php the_archive_title(); ?></h2>
+		</div>
+		<div class="news">
+			<div class="news__sidbar">
+				<?php 
+	              $args = array(
+	                'show_option_all'    => '',
+	                'show_option_none'   => __('No categories'),
+	                'orderby'            => 'name',
+	                'order'              => 'ASC',
+	                'style'              => 'list',
+	                'show_count'         => 0,
+	                'hide_empty'         => 1,
+	                'use_desc_for_title' => 1,
+	                'child_of'           => 0,
+	                'feed'               => '',
+	                'feed_type'          => '',
+	                'feed_image'         => '',
+	                'exclude'            => '',
+	                'exclude_tree'       => '',
+	                'include'            => '',
+	                'hierarchical'       => true,
+	                'title_li'           => __( '' ),
+	                'number'             => NULL,
+	                'echo'               => 1,
+	                'depth'              => 0,
+	                'current_category'   => 0,
+	                'pad_counts'         => 0,
+	                'taxonomy'           => 'category',
+	                'walker'             => 'Walker_Category',
+	                'hide_title_if_empty' => false,
+	                'separator'          => '<br />',
+	              );
+	              echo '<ul>';
+	              echo '<li><strong>Категории</strong></li>';
+	                wp_list_categories( $args );
+	              echo '</ul>';
+	            ?>
+			</div>
+			<div class="news__box">
+				<?php if ( have_posts() ) : ?>
+					<?php
+					while ( have_posts() ) :
+						the_post();
+						?>
+						<div class="news__border">  
+							<a class="news__item" href="<?php the_permalink(); ?>">
+							  <div class="news__img">
+							    <img src="<?php the_post_thumbnail_url(); ?>" alt="">
+							  </div>
+							  <div class="news__title"><?php the_title(); ?></div>
+							  <div class="news__date"><?php echo get_the_date('d.m.Y'); ?></div>
+							</a>
+						</div>
+						<?php
+					endwhile;
+					the_posts_navigation();
+				else :
 
-	<main id="primary" class="site-main">
+					get_template_part( 'template-parts/content', 'none' );
 
-		<?php if ( have_posts() ) : ?>
-
-			<header class="page-header">
-				<?php
-				the_archive_title( '<h1 class="page-title">', '</h1>' );
-				the_archive_description( '<div class="archive-description">', '</div>' );
+				endif;
 				?>
-			</header><!-- .page-header -->
-
-			<?php
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
-
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_type() );
-
-			endwhile;
-
-			the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif;
-		?>
-
-	</main><!-- #main -->
+			</div>
+		</div>
+	</div>
+</section>
 
 <?php
-get_sidebar();
 get_footer();
