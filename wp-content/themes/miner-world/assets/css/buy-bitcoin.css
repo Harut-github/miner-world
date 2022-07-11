@@ -1,0 +1,104 @@
+.buybitcoin__title{
+	font-weight: 600;
+	font-size: 40px;
+}
+.buybitcoin{
+	display: flex;
+	margin:45px 0 100px 0;
+}
+.buybitcoin__content{
+	width: 50%;
+}
+.buybitcoin__form{
+	width: 50%;
+}
+.buybitcoin__content strong, .buybitcoin__content h2{
+	font-weight: 500;
+	font-size: 20px;
+	padding-bottom:10px;
+	color: #000000;
+}
+.buybitcoin__content p{
+	font-weight: 400;
+	font-size: 16px;
+	padding-bottom:30px;
+	color: #000000;
+}
+.buybitcoin__box{
+	margin-top:130px;
+}
+.buybitcoin__link{
+	margin-bottom:20px;
+}
+.buybitcoin__link a:first-child{
+	font-weight: 500;
+	color: #000000;
+	font-size: 20px;
+	line-height: 1.3;
+	padding-bottom:10px;
+}
+.buybitcoin__box a{
+	font-weight: 400;
+	font-size: 16px;
+	color: #000000;
+}
+.buybitcoin__box span{
+	color: #000000;
+	font-weight: 400;
+	font-size: 14px;
+	margin-top:20px;
+	display: block;
+}
+.buybitcoin__form .blueform__form{
+	margin: 0px auto;
+}
+.buybitcoin__form .blueform__messeg{
+	width: 100%;
+	height:200px;
+	margin-bottom:25px;
+}
+.buybitcoin__form .blueform__messeg textarea{
+	padding: 8px 16px;
+    background: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    width: 100%;
+    height:100%;
+    color: #BDBDBD;
+}
+.buybitcoin__form .blueform__messeg textarea::placeholder{
+	color: #BDBDBD;
+}
+.buybitcoin__form .blueform__phone{
+	max-width: 260px!important;
+}
+.buybitcoin__form .blueform__email{
+	margin: 25px 0 25px 0;
+}
+@media only screen and (max-width: 1200px) {
+	.buybitcoin__form .blueform__name{
+		max-width: 100%;
+		margin-bottom:25px;
+	}
+	.buybitcoin__form .blueform__phone{
+		max-width: 100%!important;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.buybitcoin{
+		flex-direction: column;
+	}
+	.buybitcoin__content{
+		width: 100%;
+		margin-bottom:30px;
+	}
+	.buybitcoin__form{
+		width: 100%;
+	}
+	.buybitcoin__box{
+		margin-top:50px;
+	}
+}
