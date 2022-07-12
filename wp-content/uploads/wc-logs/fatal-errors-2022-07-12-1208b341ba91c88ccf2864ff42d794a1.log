@@ -1,0 +1,12 @@
+2022-07-12T07:41:41+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\xampp\htdocs\mywp\miner-world\wp-includes\widgets\class-wp-widget-archives.php на строке 17
+
+2022-07-12T07:41:42+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\xampp\htdocs\mywp\miner-world\wp-includes\widgets\class-wp-widget-recent-posts.php на строке 17
+
+2022-07-12T14:57:25+00:00 CRITICAL Uncaught Error: Call to undefined function the_cotnent() in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\page-templates\page-servicecenter.php:7
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywp\miner-world\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\page-templates\page-servicecenter.php на строке 7
+
