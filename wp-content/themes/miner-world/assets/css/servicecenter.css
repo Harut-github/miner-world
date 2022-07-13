@@ -86,6 +86,8 @@
 .servicecenter__cooperate-bg .cooperate__list ul li p{
 	font-weight: 600;
 	font-size: 16px;
+	max-width: 270px;
+	width: 100%;
 }
 .ourservices{
 	margin:60px 0;

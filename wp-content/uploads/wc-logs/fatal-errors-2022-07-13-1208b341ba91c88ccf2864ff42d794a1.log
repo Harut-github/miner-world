@@ -1,0 +1,6 @@
+2022-07-13T07:21:16+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\wp-all-import-pro\helpers\import_custom_meta_box.php на строке 2
+
+2022-07-13T07:21:17+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\xampp\htdocs\mywp\miner-world\wp-includes\widgets\class-wp-widget-recent-comments.php на строке 17
+
+2022-07-13T07:52:56+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\advanced-custom-fields-pro\includes\acf-field-functions.php на строке 688
+
