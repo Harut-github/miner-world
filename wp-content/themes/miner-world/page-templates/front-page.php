@@ -11,7 +11,22 @@
 			<h2>Популярные товары </h2>
 		</div>
 		<div class="product">
-			<?php get_template_part( 'template-parts/praduct-item'); ?>
+			<?php 
+			  $query = new WP_Query( $args );
+			  $args = array( 
+			  'post_type' => 'product',
+			  'posts_per_page'  => 4,
+   			  'post__in' => wc_get_featured_product_ids(),
+			  ); 
+			  $query = new WP_Query( $args ); 
+			  if ( $query->have_posts() ) { 
+			  while ( $query->have_posts() ) { 
+			  $query->the_post(); ?> 
+			   <?php get_template_part( 'template-parts/praduct-item'); ?>
+			  <?php 
+			  } 
+			  wp_reset_postdata(); 
+			  } ?>
 		</div>
 	</div>
 </section>

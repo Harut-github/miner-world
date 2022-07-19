@@ -1,0 +1,14 @@
+2022-07-18T07:31:10+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\xampp\htdocs\mywp\miner-world\wp-includes\widgets\class-wp-widget-search.php на строке 17
+
+2022-07-18T07:31:18+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 11
+
+2022-07-18T15:10:09+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\xampp\htdocs\mywp\miner-world\wp-includes\wp-db.php на строке 2169
+
+2022-07-18T16:20:00+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\wp-all-import-pro\wp-all-import-pro.php на строке 10
+
+2022-07-18T16:20:58+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\xampp\htdocs\mywp\miner-world\wp-admin\includes\class-wp-screen.php на строке 15
+
+2022-07-18T16:20:58+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\xampp\htdocs\mywp\miner-world\wp-admin\includes\template.php на строке 12
+
+2022-07-18T16:21:07+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\xampp\htdocs\mywp\miner-world\wp-includes\class-wp-theme.php на строке 1241
+

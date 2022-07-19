@@ -1,0 +1,4 @@
+2022-07-17T06:34:16+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\advanced-custom-fields-pro\includes\locations\class-acf-location-post-template.php на строке 3
+
+2022-07-17T06:34:20+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\xampp\htdocs\mywp\miner-world\wp-admin\includes\file.php на строке 16
+

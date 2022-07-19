@@ -243,3 +243,8 @@ function artabr_remove_name_cat( $title ){
   }
   return $title;
 }
+
+// product the_excerpt length
+add_filter( 'excerpt_length', function(){
+	return 17;
+} );

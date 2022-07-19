@@ -1,0 +1,286 @@
+2022-07-19T10:02:23+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\xampp\htdocs\mywp\miner-world\wp-includes\wp-db.php на строке 1463
+
+2022-07-19T14:40:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\packages\action-scheduler\deprecated\ActionScheduler_AdminView_Deprecated.php на строке 11
+
+2022-07-19T19:19:25+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on string in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php:4
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\content-single-product.php(86): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\single-product.php(35): wc_get_template_part('content',  в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php на строке 4
+
+2022-07-19T19:25:38+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on string in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php:4
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\content-single-product.php(103): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\single-product.php(35): wc_get_template_part('content', в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php на строке 4
+
+2022-07-19T19:27:23+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on string in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php:4
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\content-single-product.php(129): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\single-product.php(35): wc_get_template_part('content', в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php на строке 4
+
+2022-07-19T19:28:42+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on string in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php:4
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\content-single-product.php(129): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\single-product.php(35): wc_get_template_part('content', в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php на строке 4
+
+2022-07-19T19:28:49+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on string in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php:4
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\content-single-product.php(129): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\single-product.php(35): wc_get_template_part('content', в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php на строке 4
+
+2022-07-19T19:29:45+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on string in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php:4
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\single-product.php(43): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\mywp\miner-world\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\mywp\miner-world\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\mywp\miner-world\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php на строке 4
+
+2022-07-19T19:30:04+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php:157
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mywp\miner-world\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\mywp\miner-world\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php на строке 157
+
+2022-07-19T19:30:24+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on string in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php:4
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\single-product.php(43): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\mywp\miner-world\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\mywp\miner-world\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\mywp\miner-world\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php на строке 4
+
+2022-07-19T19:38:29+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on string in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php:14
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\content-single-product.php(121): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\single-product.php(35): wc_get_template_part('content', в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php на строке 14
+
+2022-07-19T19:40:28+00:00 CRITICAL Uncaught Error: Call to a member function get_review_count() on string in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php:21
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\content-single-product.php(121): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\single-product.php(35): wc_get_template_part('co в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php на строке 21
+
+2022-07-19T19:41:07+00:00 CRITICAL Uncaught Error: Call to a member function get_review_count() on string in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php:21
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\content-single-product.php(121): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\single-product.php(35): wc_get_template_part('co в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php на строке 21
+
+2022-07-19T19:41:41+00:00 CRITICAL Uncaught Error: Call to a member function get_review_count() on string in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php:21
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\content-single-product.php(103): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\single-product.php(35): wc_get_template_part('co в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php на строке 21
+
+2022-07-19T19:45:15+00:00 CRITICAL Uncaught Error: Call to a member function get_review_count() on string in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php:21
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\content-single-product.php(113): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\single-product.php(35): wc_get_template_part('co в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php на строке 21
+
+2022-07-19T19:45:25+00:00 CRITICAL Uncaught Error: Call to a member function get_review_count() on string in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php:21
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\content-single-product.php(113): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\single-product.php(35): wc_get_template_part('co в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php на строке 21
+
+2022-07-19T19:45:54+00:00 CRITICAL Uncaught Error: Call to undefined function get_review_count() in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php:21
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\content-single-product.php(113): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\single-product.php(35): wc_get_template_part('content', ' в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php на строке 21
+
+2022-07-19T19:51:03+00:00 CRITICAL Uncaught Error: Call to a member function get_review_count() on string in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php:22
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\content-single-product.php(114): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\single-product.php(35): wc_get_template_part('co в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php на строке 22
+
+2022-07-19T20:00:32+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php:5
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\page-templates\front-page.php(14): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\mywp\miner-world\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\mywp\miner-world\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\mywp\miner-world\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php на строке 5
+
+2022-07-19T20:00:57+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php:157
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mywp\miner-world\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\mywp\miner-world\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php на строке 157
+
+2022-07-19T20:01:44+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php:157
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mywp\miner-world\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\mywp\miner-world\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php на строке 157
+
+2022-07-19T20:02:07+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php:157
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mywp\miner-world\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\mywp\miner-world\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php на строке 157
+
+2022-07-19T20:02:46+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php:157
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mywp\miner-world\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\mywp\miner-world\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php на строке 157
+
+2022-07-19T20:07:07+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php:157
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mywp\miner-world\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\mywp\miner-world\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php на строке 157
+
+2022-07-19T20:07:38+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php:157
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mywp\miner-world\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\mywp\miner-world\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php на строке 157
+
+2022-07-19T20:08:02+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php:157
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mywp\miner-world\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\mywp\miner-world\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php на строке 157
+
+2022-07-19T20:08:12+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php:157
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mywp\miner-world\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\mywp\miner-world\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php на строке 157
+
+2022-07-19T20:08:21+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php:157
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mywp\miner-world\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\mywp\miner-world\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\woocommerce\archive-product.php на строке 157
+
+2022-07-19T20:14:01+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php:5
+Stack trace:
+#0 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\mywp\miner-world\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\mywp\miner-world\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\page-templates\front-page.php(14): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\mywp\miner-world\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\mywp\miner-world\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\mywp\miner-world\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\template-parts\praduct-item.php на строке 5
+
+2022-07-19T20:35:25+00:00 CRITICAL syntax error, unexpected ';', expecting ')' в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\page-templates\front-page.php на строке 25
+
+2022-07-19T20:37:45+00:00 CRITICAL syntax error, unexpected ';', expecting ')' в C:\xampp\htdocs\mywp\miner-world\wp-content\themes\miner-world\page-templates\front-page.php на строке 17
+

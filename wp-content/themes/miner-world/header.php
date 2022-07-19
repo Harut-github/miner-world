@@ -21,6 +21,144 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+<?php if ( wp_is_mobile() ) : ?>
+ 
+<header>
+
+  <div class="header__top">
+     <p>Узнай актуальные цены на майнеры для партнеров </p>
+  </div>
+
+  <div class="container">
+    <div class="header__city header__city-mob">
+      <ul>
+        <li>
+          Ваш город: <strong>Москва</strong>
+          <ul class="header__city-sub">
+            <li>Москва</li>
+            <li>Санкт-Петербург</li>
+            <li>Иркутск</li>
+            <li>Заказ из Китая</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="header__content">
+      <div class="header__left-mob">
+        <div class="header__logo-mob">
+          <a href="<?php echo home_url(); ?>">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/svg/header-logo.svg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="header__center">
+        <div class="header__search">
+          <form role="search" method="get" class="search-form search_header" action="<?php echo home_url( '/' ); ?>">
+            <label>
+                <input type="search" name="s" placeholder="Что будем искать?"  value="<?php echo get_search_query() ?>" title="<?php echo esc_attr_x( 'Search for:', 'label' ) ?>" class="input-popup search-field">
+                <div class="header__search-img">
+                  <button type="submit" class="icon-right">
+                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/svg/search.svg" alt="">
+                  </button>
+                </div>
+            </label>
+          </form>
+          <div class="icon-right btn__input">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/svg/search-black.svg" alt="">
+          </div>
+        </div>
+      </div>
+      
+      <div class="header__right">
+        <div class="header__cart-mob">
+          <a href="<?php echo home_url('cart'); ?>">
+            <img src="<?php echo bloginfo('template_url'); ?>/assets/img/svg/cart-header.svg" alt="">
+          </a>
+        </div>
+        <div class="burger-menu-mob">
+          <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+          <label class="btn-menu" for="hmt">
+            <span class="first"></span>
+            <span class="second"></span>
+            <span class="third"></span>
+          </label>
+          <div class="hidden-menu">
+              <div class="header__menu-mob">
+                <strong>Меню</strong>
+                <?php
+                  wp_nav_menu(
+                    array(
+                    'theme_location' => 'menu-1',
+                    'menu_id'        => 'primary-menu',
+                    'container'=> false,
+                    )
+                    );
+                ?> 
+              </div>
+              <div class="header__menu-mob">
+                <strong>Каталог</strong>
+                <?php
+                  wp_nav_menu(
+                    array(
+                    'theme_location' => 'menu-1',
+                    'menu_id'        => 'primary-menu',
+                    'container'=> false,
+                    )
+                    );
+                ?> 
+              </div>
+              <div class="header__leng-mob">
+                RU
+              </div>
+          </div>
+        </div>  
+
+      </div>
+    </div>
+  </div>
+
+  <div class="header__tradingview-widget-mob">
+     <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+         {
+         "symbols": [
+           {
+             "description": "",
+             "proName": "BITSTAMP:BTCUSD"
+           },
+           {
+             "description": "",
+             "proName": "COINBASE:ETHUSD"
+           },
+           {
+             "description": "",
+             "proName": "BINANCE:DOGEUSD"
+           },
+           {
+             "description": "",
+             "proName": "COINBASE:LTCUSD"
+           }
+         ],
+         "showSymbolLogo": true,
+         "colorTheme": "light",
+         "isTransparent": false,
+         "displayMode": "regular",
+         "locale": "ru"
+         }
+      </script>
+    </div> 
+  </div>
+</header>
+
+<?php else : ?>
+
 <header>
   <div class="header__top">
      <p>Узнай актуальные цены на майнеры для партнеров </p>
@@ -51,18 +189,17 @@
 
       <div class="header__center">
         <div class="header__catalog">
-          <a href="">Каталог</a>
+          <a href="<?php echo home_url('shop'); ?>">Каталог</a>
         </div>
         <div class="header__search">
           <form role="search" method="get" class="search-form search_header" action="<?php echo home_url( '/' ); ?>">
             <label>
-                <input type="search" name="s" placeholder="Что будем искать?"  value="<?php echo get_search_query() ?>" title="<?php echo esc_attr_x( 'Search for:', 'label' ) ?>" required="" class="input-popup search-field">
+                <input type="search" name="s" placeholder="Что будем искать?"  value="<?php echo get_search_query() ?>" title="<?php echo esc_attr_x( 'Search for:', 'label' ) ?>"  class="input-popup search-field">
                 <div class="header__search-img">
                   <button type="submit" class="icon-right">
                     <img src="<?php echo bloginfo('template_url'); ?>/assets/img/svg/search.svg" alt="">
                   </button>
                 </div>
-                
             </label>
           </form>
         </div>
@@ -81,7 +218,7 @@
           <img src="<?php echo bloginfo('template_url'); ?>/assets/img/svg/comparisons.svg" alt="">
         </div>
         <div class="header__cart">
-          <a href="">
+          <a href="<?php echo home_url('cart'); ?>">
             <img src="<?php echo bloginfo('template_url'); ?>/assets/img/svg/cart-header.svg" alt="">
           </a>
         </div>
@@ -135,7 +272,6 @@
     </div>
   </div>
 </header>
-
-
+<?php endif; ?>
 
 

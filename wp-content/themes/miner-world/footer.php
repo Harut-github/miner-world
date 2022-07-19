@@ -42,19 +42,19 @@
 				<div class="footer__menu">
 					<ul>
 						<li><strong>Меню</strong></li>
-						<li><a href="">О компании</a></li>
-						<li><a href="">Узнайте больше о майнинге</a></li>
-						<li><a href="">Сотрудничество</a></li>
-						<li><a href="">Оплата и доставка</a></li>
-						<li><a href="">Представительства</a></li>
+						<li><a href="<?php echo home_url('company'); ?>">О компании</a></li>
+						<li><a href="<?php echo home_url('news'); ?>">Узнайте больше о майнинге</a></li>
+						<li><a href="<?php echo home_url('cooperate'); ?>">Сотрудничество</a></li>
+						<li><a href="<?php echo home_url('pay-and-delivery'); ?>">Оплата и доставка</a></li>
+						<li><a href="<?php echo home_url('departments'); ?>">Представительства</a></li>
 					</ul>
 				</div>
 				<div class="footer__menu">
 					<ul>
 						<li><strong>Каталог</strong></li>
-						<li><a href="">ASIC-майнеры</a></li>
-						<li><a href="">Комплектующие</a></li>
-						<li><a href="">Холодные кошельки</a></li>
+						<li><a href="<?php echo home_url('shop'); ?>">ASIC-майнеры</a></li>
+						<li><a href="<?php echo home_url('shop'); ?>">Комплектующие</a></li>
+						<li><a href="<?php echo home_url('shop'); ?>">Холодные кошельки</a></li>
 					</ul>
 				</div>
 			</div>
@@ -211,6 +211,13 @@
   });
 })(jQuery);
 </script>
-
+<script>
+	// header search click
+	$(document).on("click",".btn__input",function() {
+	    $(this).hide();
+	    $('.input-popup').show();
+	    $('.header__search-img>button').show();
+	});
+</script>
 </body>
 </html>

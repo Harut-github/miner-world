@@ -49,9 +49,20 @@ global $product;
 		</div>
 		<div class="single__rezerv">
 			<div class="single__tags">
-				<div class="single__tagrecommended">
+				<?php if( $product->is_on_sale()) : ?>
+				<div class="single__tagrecommended product-item__sale">
+					Скидка!
+				</div>
+				<?php elseif($product->is_featured()) : ?>
+				<div class="single__tagrecommended product-item__recomended">
 					Рекомендуем
 				</div>
+				<?php elseif($product->get_review_count() > 4) : ?>	
+				<div class="single__tagrecommended product-item__sale">
+					Выбор покупателей
+				</div>
+				<?php else: ?>
+				<?php endif;?>
 				<div class="single__tagavailable">
 					В наличии в Москве
 				</div>
@@ -60,8 +71,8 @@ global $product;
 				<?php woocommerce_template_single_price();?>
 			</div>
 			<div class="single__paylink">
-				<a href="">Любая удобная форма оплаты.</a>
-				<a href="">Доставка по по всей России..</a>
+				<a href="<?php echo home_url('pay-and-delivery'); ?>">Любая удобная форма оплаты.</a>
+				<a href="<?php echo home_url('pay-and-delivery'); ?>">Доставка по по всей России..</a>
 			</div>
 			<div class="single__btn">
 				<button type="submit" data-quantity="1" data-product_id="<?php echo $product->id; ?>" class="button btn alt ajax_add_to_cart add_to_cart_button product_type_simple">
@@ -77,13 +88,24 @@ global $product;
 	</div>
 </div>
 
-
 <div class="container">
 	<div class="single__related products__loop">
 		<h2>С этим товаром покупают</h2>
-		<?php //woocommerce_output_related_products();?>
 		<div class="product">
+			<?php 
+			$tag_ids = wp_get_post_tags( $post->ID, array( 'fields' => 'ids' ) );
+			$query = new WP_Query( $args );
+			$args = array( 
+			'post_type' => 'product',
+			'posts_per_page' => 4,
+			'tag__in' => $tag_ids,
+			); 
+			$query = new WP_Query( $args ); 
+			if ( $query->have_posts() ) { 
+			while ( $query->have_posts() ) { 
+			$query->the_post(); ?>  
 			<?php get_template_part( 'template-parts/praduct-item'); ?>
+			<?php } wp_reset_postdata(); } ?>
 		</div>
 	</div>
 </div>
@@ -100,7 +122,33 @@ global $product;
 	<div class="single__similar products__loop">
 		<h2>Похожие товары</h2>
 		<div class="product">
-			<?php get_template_part( 'template-parts/praduct-item'); ?>
+			  <?php 
+			  $related_tax = 'product_cat';
+              $cats_tags_or_taxes = wp_get_object_terms( $post->ID, $related_tax, array( 'fields' => 'ids' ) ); ?>
+              <?php 
+              $query = new WP_Query( $args );
+              $args = array( 
+              'post_type' => 'product',
+              'posts_per_page' => 4,
+              'tax_query' => array(
+                    array(
+                        'taxonomy' => $related_tax,
+                        'field' => 'id',
+                        'include_children' => false, 
+                        'terms' => $cats_tags_or_taxes,
+                        'operator' => 'IN' 
+                    )
+                )
+              ); 
+              $query = new WP_Query( $args ); 
+              if ( $query->have_posts() ) { 
+              while ( $query->have_posts() ) { 
+              $query->the_post(); ?> 
+              <?php get_template_part( 'template-parts/praduct-item'); ?>
+              <?php 
+              } 
+              wp_reset_postdata(); 
+              } ?>
 		</div>
 	</div>
 </div>
